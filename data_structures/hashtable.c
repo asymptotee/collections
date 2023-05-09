@@ -36,7 +36,6 @@ void ht_insert(Hashtable* ht, char* key, char* value) {
         for (;;) {
             if (block->next == NULL) {
                 block->next = init_block(key, value);
-                ht->count++;
                 break;
             }
             block = block->next; 

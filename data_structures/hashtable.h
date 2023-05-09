@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdbool.h>
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
